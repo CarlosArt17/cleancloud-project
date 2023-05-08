@@ -1,0 +1,64 @@
+.canvas {
+    margin: 5rem auto;
+    padding: 1rem;
+    width: 100%;
+}
+
+.canvas .container {
+    width: 1240px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.canvas .col-1 {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.canvas .col-1 p:nth-child(1) {
+    font-size: 1.8rem;
+    font-style: italic;
+}
+
+.canvas .col-1 p:nth-child(2) {
+    font-size: 3rem;
+    font-weight: 600;
+    margin: .5rem 0;
+}
+
+.canvas .col-1 p:nth-child(3) {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+
+.canvas .col-2 {
+    margin: auto;
+}
+
+
+@media screen and (max-width: 940px) {
+    .canvas .container {
+        max-width: 100%;
+        grid-template-columns: 1fr;
+        grid-gap: 30px;
+    }
+
+    .canvas iframe {
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
