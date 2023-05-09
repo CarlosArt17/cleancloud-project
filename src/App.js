@@ -5,7 +5,6 @@ import Chart from './components/Chart';
 import Canvas from './components/Canvas';
 import Footer from './components/Footer';
 
-
 function App() {
   return (
     <div>

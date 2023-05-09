@@ -7,6 +7,7 @@
     z-index: 1;
     transition: .3s ease-in;
     overflow: hidden;
+    background-color: white;
 }
 
 .header .navbar {
@@ -50,7 +51,7 @@
 @media screen and (max-width:940px) {
     .header {
         max-width: 100%;
-        background-color: rgba(255, 255, 255, 0.688);
+        background-color: rgb(255, 255, 255);
     }
 
     .header .navbar {
