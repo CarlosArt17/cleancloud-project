@@ -1,3 +1,6 @@
+*{
+    font-family: system-ui;
+}
 .canvas {
     margin: 5rem auto;
     padding: 1rem;
@@ -6,20 +9,25 @@
 
 .canvas .container {
     width: 1240px;
-    margin: auto;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+}
+
+.canvas .container .col-1 img {
+    width: 100%;
+    height: 80vh;
 }
 
 .canvas .col-1 {
     padding: 1rem;
     display: flex;
     flex-direction: column;
+    background-color: coral;
 }
 
 .canvas .col-1 p:nth-child(1) {
     font-size: 1.8rem;
-    font-style: italic;
+    font-family: system-ui;
 }
 
 .canvas .col-1 p:nth-child(2) {
@@ -35,7 +43,11 @@
 
 
 .canvas .col-2 {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
     margin: auto;
+    background-color: cornflowerblue;
 }
 
 
