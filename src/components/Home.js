@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react';
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
-import { Popup } from 'react-leaflet';
 
 const Home = () => {
   useEffect(() => {
@@ -35,7 +34,6 @@ polygon.bindPopup("Zona con baja contaminacion");
     .setContent("Bienvenido a OriYork")
     .openOn(map);
 
-    var popup = L.popup();
 
 function onMapClick(e) {
     popup
